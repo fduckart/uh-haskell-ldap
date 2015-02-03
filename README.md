@@ -25,6 +25,7 @@ using ghc version 7.8.3 and the LDAP module version 0.6.10.
     The Glorious Glasgow Haskell Compilation System, version 7.8.3
 
 **Install the LDAP module**
+
     $ /Library/Haskell/bin/cabal install LDAP
     Resolving dependencies...
     Downloading LDAP-0.6.10...
