@@ -6,10 +6,10 @@ main = do
         bindDn       = "cn=filedrop,ou=Specials,dc=hawaii,dc=edu"
         bindPassword = "" -- <-- Your password goes here.
         baseDn       = "dc=hawaii,dc=edu"
-        sfilter      = "uid=duckart"
+        searchFilter = "uid=duckart"
     
     ldap <- ldapInitialize ldapUri
     ldapSimpleBind ldap bindDn bindPassword
     e <- ldapSearch ldap (Just baseDn) LdapScopeSubtree 
-                         (Just sfilter) LDAPAllUserAttrs False
+                         (Just searchFilter) LDAPAllUserAttrs False
     print e
