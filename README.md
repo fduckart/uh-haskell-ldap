@@ -19,7 +19,7 @@ the ability to pass through the UH firewall.
 The program was developed on Apple Mac OS X 10.10.2,
 using ghc version 7.8.3 and the LDAP module version 0.6.10.
 
-The program was subsequently verified to run on Apple Mac 10.11.6,
+The program was subsequently verified to run on Apple Mac OS X 10.11.6,
 using ghc version 8.0.1 and the LDAP module version 0.6.11.
 
 **Verify you have Haskell Compiler and Linker installed**
