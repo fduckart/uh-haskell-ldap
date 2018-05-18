@@ -52,7 +52,7 @@ Run the program from the command line:
     [LDAPEntry {
         ledn = "uhEntry=16d4fd0bffd6c91a4e8af1b6642c2cea7dddcc707,ou=People,dc=hawaii,dc=edu",
         leattrs = [("objectClass",["eduPerson","inetOrgPerson","organizationalPerson","person","top","uhEduPerson"]),
-                   ("uhUuid",["17958670"]),
+                   ("uhUuid",["12345678"]),
                    ("cn",["Frank R Duckart"]),
                    ("eduPersonAffiliation",["staff"]),
                    ("eduPersonOrgDN",["uhsystem"]),
