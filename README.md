@@ -63,10 +63,10 @@ Run the program from the command line:
                    ("uhOrgAffiliation",["eduPersonOrgDN=uhsystem,eduPersonAffiliation=staff"]),
                    ("uid",["duckart"]),
                    ("displayName",["Frank Duckart"]),
-                   ("facsimileTelephoneNumber",["(808) 956-2412"]),
+                   ("facsimileTelephoneNumber",["(808) 555-1212"]),
                    ("ou",["University of Hawaii System","Information Technology Services, Management Information Systems"]),
                    ("physicalDeliveryOfficeName",["Info Tech Ctr, 6th Fl"]),
-                   ("telephoneNumber",["(808) 956-8904"]),
+                   ("telephoneNumber",["(808) 555-1212"]),
                    ("title",["Info Tech Spec"])]}
                   ]
 
