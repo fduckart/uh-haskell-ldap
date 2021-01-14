@@ -25,18 +25,29 @@ using ghc version 8.0.1 and the LDAP module version 0.6.11.
 **Verify you have Haskell Compiler and Linker installed**
 
     $ ghc --version
-    The Glorious Glasgow Haskell Compilation System, version 7.8.3
+    The Glorious Glasgow Haskell Compilation System, version 8.10.3
+
+**Verify you have cabal installed**
+
+    $ cabal --version
+    cabal-install version 3.2.0.0
+    compiled using version 3.2.0.0 of the Cabal library
+
+    $ cabal update
+    Downloading the latest package list from hackage.haskell.org
 
 **Install the LDAP module**
 
-    $ /Library/Haskell/bin/cabal install LDAP
-    Resolving dependencies...
-    Downloading LDAP-0.6.10...
-    Configuring LDAP-0.6.10...
-    Building LDAP-0.6.10...
-    Installed LDAP-0.6.10
-    Updating documentation index
-    /Users/duckart/Library/Haskell/share/doc/index.html
+    $ cabal install LDAP
+    Build profile: -w ghc-8.10.3 -O1
+    In order, the following will be built (use -v for more details):
+     - LDAP-0.6.11 (lib) (requires download & build)
+    Downloading  LDAP-0.6.11
+    Downloaded   LDAP-0.6.11
+    Starting     LDAP-0.6.11 (lib)
+    Building     LDAP-0.6.11 (lib)
+    Installing   LDAP-0.6.11 (lib)
+    Completed    LDAP-0.6.11 (lib)
 
 **Compile and Build Program**
 
